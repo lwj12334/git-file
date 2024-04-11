@@ -1,25 +1,25 @@
 #include<stdio.h>
 int main()
 { int a;
-	printf("ÊäÈëÊı×Ö£º");
+	printf("è¾“          å…¥æ•°å­—ï¼š");
 	scanf("%d",&a);
 	if(a%2==1)
 	{
 	if(a==3||a==5)
-	printf("ËØÊı");
+	printf("ç´ æ•°");
 	else 
 	{
 	if(a%3==0||a%5==0)
-	printf("·ÇËØÊı");
+	printf("éç´ æ•°");
 	else
-	printf("ËØÊı") ;
+	printf("ç´ æ•°") ;
 	 
 }
 } 
 else
 {if(a==2)
-printf("ËØÊı");
+printf("ç´ æ•°");
 else
-printf("·ÇËØÊı") ; 
+printf("éç´ æ•°") ; 
 }
 }
